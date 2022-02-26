@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="icon" href="css.png">
+	
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a class="loco" href="Especificidad.html">Especificidad, ¿Que es?</a></li>	
+			<li><a href="Index.html">Selectores</a></li>
+			<li><a href="MetodologiaBEM.html">Metodologia BEM</a></li>	
+            <li><a href="unidades.html">Unidades de tamaño</a></li> 
+            <li><a href="Tipografias.html">Tipografias</a></li>
+	    </ul>
+	</nav>
+</header>
+<article>
+    <section>
+<h1 class="form__h1">¿Que es la Metodologia BEM</h1>
+<p>La metodologia BEM divide la interfaz de usuario en bloques independientes<br>
+ para crear componentes reutilizables.<br>
+ En esta metodologia no se usan ID, solo clases.<br>
+ Para usarse pondremos el nombre del contenedor, por ejemplo si es un input <br>
+ Pondremos class=form__input y ahi estariamos usando la metodologia BEM <br>
+ Esto sirve tambien por si tenemos muchos elementos que queremos modificarlos<br>
+ por igual, pero de la misma forma si queremos que el primero de todos estos <br>
+ elementos sea distinto pondremos .form__input:first-child o podemos poner <br>
+ .form_input--(cualquier cosa) este hace que ese input sea especial y por lo <br>tanto se pueda modificar sin cambiar el resto.
+ Si tuviesemos un  h2 dentro de un p la forma de seleccionarlo seria form__p-h2.<br>
+ Se modifica por bloques. </p>
+ <input type="text" class="form__input">
+ <input type="text" class="form__input">
+ <input type="text" class="form__input">
+ <input type="text" class="form__input--active" value="Este input tiene -- " >
+ <input type="text" class="form__input">
+ <input type="text" class="form__input">
+ <input type="text" class="form__input">
+ </section>
+</article>
+</body>
+</html>

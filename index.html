@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aprendiendo CSS</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<link rel="icon" href="css.png">
+</head>
+<header>
+	<nav>
+		<ul>
+			<li><a class="loco" href="Especificidad.html">Especificidad, ¿Que es?</a></li>	
+			<li><a href="Index.html">Selectores</a></li>
+			<li><a href="MetodologiaBEM.html">Metodologia BEM</a></li>	
+			<li><a href="unidades.html">Unidades de tamaño</a></li>	
+			<li><a href="Tipografias.html">Tipografias</a></li>
+	    </ul>
+	</nav>
+</header>
+<body>
+	<article>
+		<section>
+<h1 id="element">Mi primer titulo editado con CSS</h1>
+<input type="text" value="id">
+<p>
+	Se coloca como atributo id="", ahi le asignamos un nombre y en<br>
+	CSS se coloca #(nombre) y el color
+</p>
+<h1 class="vel">Mi primer titulo editado con CSS</h1>
+<input type="text" value="Clase">
+<p>
+	Se coloca como el atributo class="", ahi le asignamos un nombre<br>
+	y en CSS ponemos .(nombre) y su color
+</p>
+<h4 >Mi primer titulo editado con CSS</h4>
+<input type="text" value="Tipo">
+<p>
+	Para este tan solo tendremos que poner el nombre del tipo<br>
+	al que queremos modificar y le ponemos el color. Ej:<br>
+	h6 {<br>
+    color: green;<br>
+    }
+</p>
+<h1 rancio="si">Mi primer titulo editado con CSS</h1>
+<input type="text" value="Atributo propio">
+<p>
+	Añadimos nuestro propio atributo como por ejemplo <b class="ejemplo">atributo-1</b>=<b class="ejemplo-2">true</b>,no hace falta poner true, se puede escribir cualquier cosa, y en CSS se coloca [atributo-1="true"] {<br>
+    color: red;<br>
+    }
+</p>
+<h1 ><p>Mi primer titulo editado con CSS</p></h1>
+<input type="text" value="Descendencia">
+<p>
+	Para este podemos seleccionar algo que este dentro de otro <br>
+	por ejemplo h1 b Hola b h1 ,si queremos cambiar ese Hola<br>
+	pondremos en CSS h1 b {<br>
+	color: red;<br>
+	}
+</p>
+<h1 class="hover"><b>Mi primer titulo editado con CSS</b></h1>
+<input type="text" value="Pseudo-Clases">
+<p>
+	Las pseudo-clases sirven por ejemplo para hacer que el texto cambie<br>
+	de color al pasar el mouse, para hacer esto seleccionamos lo que <br>
+	queremos que reaccione (Por ejemplo b), le tendremos que asignar una clase y <br>
+	 en CSS y le ponemos b:hover y el color
+</p>
+        </section>
+    </article>
+</body>
+</html>

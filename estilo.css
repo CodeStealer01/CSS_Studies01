@@ -1,0 +1,49 @@
+* {
+	padding: 0px;
+	margin: 1px;
+}
+#element {
+	color: blue;
+}
+.vel {
+	color: yellow;
+}
+h4 {
+	color: green;
+}
+[rancio=si] {
+	color: purple;
+}
+h1 p {
+	color: hotpink;
+}
+.hover b:hover {
+	color: red;
+}
+.loco {
+	color: blueviolet;
+}
+.ejemplo {
+	color: blue;
+}
+.ejemplo-2 {
+	color: red;
+}
+.Titulo-1 {
+	color: red;
+}
+.form__input {
+	color: red;
+}
+.form__h1 {
+	color: green;
+}
+.form__input--active {
+	color: blue;
+}
+.georgia {
+	font-family: Georgia;
+}
+.form__b-line-height {
+	line-height: 2;
+}
